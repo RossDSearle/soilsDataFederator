@@ -2,7 +2,7 @@ library(RSQLite)
 library(DBI)
 library(stringr)
 
-gitRoot <- 'C:/Users/sea084/Dropbox/RossRCode/Git'
+gitRoot <- 'C:/Users/sea084/Dropbox/RossRCode/Git/soilsDataFederator'
 dataRoot <- 'C:/Projects/TernLandscapes/Site Data'
 
 source(paste0(gitRoot, '/AusSoilsDSM/SLGA/Production/NSSC/NSSCHelpers.R'))
@@ -23,3 +23,9 @@ res <- doQuery(Litecon, sql)
 head(res)
 nrow(res)
 write.csv(res, paste0(dataRoot, '/labResults.csv'))
+
+
+
+dbPath <- paste0(gitRoot, "/soilsFederator.sqlite")
+con <- dbConnect(RSQLite::SQLite(), dbPath)
+dbDisconnect(con)
