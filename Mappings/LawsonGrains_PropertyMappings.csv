@@ -1,0 +1,24 @@
+Organisation,OrigPropertyCode,ObservedProperty,DataType
+LawsonGrains,Texture,h_texture,M
+LawsonGrains,Gravel,cf_abun,M
+LawsonGrains,Colour,col_hue_val_chrom,M
+LawsonGrains,NO3N,7B1,L
+LawsonGrains,NH4N,7C1a,L
+LawsonGrains,Col P,9B,L
+LawsonGrains,Col K,18a1,L
+LawsonGrains,KCl S,10D1,L
+LawsonGrains,OC,6A1,L
+LawsonGrains,Cond,3A1,L
+LawsonGrains,pH Ca Cl2,4B1,L
+LawsonGrains,pH H2O,4A1,L
+LawsonGrains,Ex Ca,15A2_CA,L
+LawsonGrains,Ex Mg,15A2_MG,L
+LawsonGrains,Ex Na,15A2_NA,L
+LawsonGrains,Ex K,15A2_K,L
+LawsonGrains,Ca Cl2 Al,NA,L
+LawsonGrains,Ex Al,5G1,L
+LawsonGrains,Cl,5A1,L
+LawsonGrains,PBI,9I2c,L
+LawsonGrains,MIR %Silt,P10_CF_Z,L
+LawsonGrains,MIR %Clay,P10_CF_C,L
+LawsonGrains,MIR %Sand,P10_CF_S,L

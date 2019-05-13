@@ -73,8 +73,8 @@ dbSendQueries <- function(con,sql){
 doQuery <- function(conn, sql){
   
   q1 <-str_replace_all(sql, 'dbo_', '')
-  print(q1)
-  #q2 <-str_replace_all(sql, '"', "\'")
+  #print(q1)
+  q2 <-str_replace_all(sql, '"', "\'")
   qry <- dbSendQuery(conn, q1)
   res <- dbFetch(qry)
   dbClearResult(qry)
@@ -82,9 +82,30 @@ doQuery <- function(conn, sql){
 }
 
 
+doQueryFromFed <- function(sql){
+  
+  conn <- dbConnect(RSQLite::SQLite(), dbPathSoilsFed)
+  qry <- dbSendQuery(conn, sql)
+  res <- dbFetch(qry)
+  dbClearResult(qry)
+  dbDisconnect(conn)
+  return(res)
+}
 
 
+getPropertyType <- function(propCode){
+  #propCode = '4A1'
+  sql <- paste0("Select * from Properties where Property = '", propCode, "' COLLATE NOCASE")
+  r <- doQueryFromFed(sql)
+  return(r$PropertyType)
+}
 
+getPropertiesInGroup <- function(PropertyGroup){
+  PropertyGroup = 'PSA'
+  sql <- paste0("Select * from LabMethods where LABP_CODE = '", PropertyGroup, "' COLLATE NOCASE")
+  r <- doQueryFromFed(sql)
+  return(r$PropertyType)
+}
 
 
 pointsInAust <- function(df, lat_fld, lon_fld){

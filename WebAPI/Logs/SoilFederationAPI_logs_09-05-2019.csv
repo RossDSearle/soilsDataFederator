@@ -1,0 +1,14 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2019-05-09 11:26:04,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?viewer_pane=1&capabilities=1&host=http%3A%2F%2F127.0.0.1%3A26298,127.0.0.1 
+2019-05-09 11:26:04,FANCY-DP,GET/__swagger__/swagger-ui.css,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:04,FANCY-DP,GET/__swagger__/swagger-ui-bundle.js,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:05,FANCY-DP,GET/__swagger__/swagger-ui-standalone-preset.js,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:07,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:07,FANCY-DP,GET/openapi.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:07,FANCY-DP,GET/__swagger__/swagger-ui.css,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:07,FANCY-DP,GET/__swagger__/swagger-ui-bundle.js,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:07,FANCY-DP,GET/__swagger__/swagger-ui-standalone-preset.js,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:26:07,FANCY-DP,GET/openapi.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-05-09 11:27:46,FANCY-DP,GET/SoilDataAPI/SoilData,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?propertyType=LabMethod&observedProperty=4A1,127.0.0.1 
+2019-05-09 11:29:56,FANCY-DP,GET/SoilDataAPI/SoilData,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0,?propertyType=LabMethod&observedProperty=4A1,127.0.0.1 
+2019-05-09 11:30:29,FANCY-DP,GET/favicon.ico,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0,,127.0.0.1 

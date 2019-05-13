@@ -1,0 +1,32 @@
+Provier,Property,OrigCode,StdCode
+LawsonGrains,Colour,BR,BROWN
+LawsonGrains,Colour,GR OR GY,GREY
+LawsonGrains,Colour,BK,BLACK
+LawsonGrains,Colour,BRGR,BROWN-GREY
+LawsonGrains,Colour,GRBR,GREY-BROWN
+LawsonGrains,Colour,LTBR,LIGHT BROWN
+LawsonGrains,Colour,DKBR,DARK BROWN
+LawsonGrains,Colour,LTGR,LIGHT GREY
+LawsonGrains,Colour,DKGR,DARK GREY
+LawsonGrains,Colour,BRYW,BROWN-YELLOW
+LawsonGrains,Colour,BRRD,BROWN-RED
+LawsonGrains,Colour,BROR,BROWN-ORANGE
+LawsonGrains,Colour,BRBK,BROWN-BLACK
+LawsonGrains,Colour,BRWH,BROWN-WHITE
+LawsonGrains,Colour,GRBK,GREY-BLACK
+LawsonGrains,Colour,GRWH,GREY-WHITE
+LawsonGrains,Colour,GRYW,GREY-YELLOW
+LawsonGrains,Colour,GRPK,GREY-PINK
+LawsonGrains,Colour,WH,WHITE
+LawsonGrains,Colour,YW,YELLOW
+LawsonGrains,Colour,YWBR,YELLOW-BROWN
+LawsonGrains,Colour,YWGR,YELLOW-GREY
+LawsonGrains,Colour,OR,ORANGE
+LawsonGrains,Colour,RD,RED
+LawsonGrains,Colour,PK,PINK
+LawsonGrains,Texture,1,SND
+LawsonGrains,Texture,1.5,LS
+LawsonGrains,Texture,2,L
+LawsonGrains,Texture,2.5,CL
+LawsonGrains,Texture,3,LC
+LawsonGrains,Texture,3.5,HC
