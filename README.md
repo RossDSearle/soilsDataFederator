@@ -13,3 +13,5 @@ and then return data using the
     * SoilData end point.
 
 The code for the SoilDataFederator is written in R
+
+More detailed information about the SoilDataFederator can be found at http://esoil.io/TERNLandscapes/SoilDataFederatoR/R/help/index.html
